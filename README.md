@@ -1,45 +1,27 @@
-# MEAN-Stack-application
-```bash
-Authenticate application
-```
+# Store
 
-# Run project 
-```bash
-npm start
-```
-# install Node Modules 
-```bash
-npm install
-```
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
-# in current time im still working on this project
-# Node Authentication API
-API for registering users with mongodb and authentication using a JWT (json web token).
-This app uses passport and passport-jwt and uses a JWT strategy ..
+## Development server
 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-# First commit info
-setup backend Express server along with a bunch of dependencies including Mongoos, 
-BCryptjs, Passport & more. and create users routes such as /register and /authenticate.
+## Code scaffolding
 
-create Mongoose user model and schema with the user fields.
-also complete the /register post route to sign up a new user and encrypt passwords with Bcrypt..
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-# Second commit info
-implement Passport.js and JWT (Json Web Tokens) for authentication.
-Users will be able to register with the API and get a token to be able to submit to protected routes
+## Build
 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-# Endpoints
+## Running unit tests
 
-```bash
-POST /users/register
-```
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-```bash
-POST /users/authenticate   // Gives back a token
-```
+## Running end-to-end tests
 
-```bash
-GET /users/profile         // Needs json web token to authorize
-```
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
