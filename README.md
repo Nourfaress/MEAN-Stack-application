@@ -60,7 +60,6 @@ Users will be able to register with the API and get a token to be able to submit
 ```bash
 POST /users/register
 ```
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ```bash
 POST /users/authenticate   // Gives back a token
