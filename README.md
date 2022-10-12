@@ -65,7 +65,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ```bash
 POST /users/authenticate   // Gives back a token
 ```
-## Running end-to-end tests
 
 ```bash
 GET /users/profile         // Needs json web token to authorize
